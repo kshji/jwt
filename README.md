@@ -1,18 +1,18 @@
 # JWT Shell Script Encode and Decode JWT Access Token #
 
-  * [Jwt doc] (https://jwt.io/)
-  * [Jwt libs] (https://jwt.io/)
-  * [Jwt debug] (https://jwt.io/)
+  * [Jwt doc](https://jwt.io/)
+  * [Jwt libs](https://jwt.io/)
+  * [Jwt debug](https://jwt.io/)
 
 
 JWT Token encode and decode libraries for Token Signing/Verification have listed
-on [Jwt.io] (https://jwt.io/) site, but not for shell scripts.
+on [Jwt.io](https://jwt.io/) site, but not for shell scripts.
 
 I have put examples to my **jwt.sh** script to handle JWT in any Posix compatible shells (ksh, bash, dash, zsh, ...)
 
 You need openssl to run this scripts. 
 
-Also [Jq] (https://stedolan.github.io/jq/) command-line JSON processor helps to parse JSON elements.
+Also [Jq](https://stedolan.github.io/jq/) command-line JSON processor helps to parse JSON elements.
 
 
 Syntax :
