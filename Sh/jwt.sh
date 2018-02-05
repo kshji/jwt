@@ -4,9 +4,7 @@
 # Jukka Inkeri
 # 2018-02-04
 #
-# https://jwt.io/
-# https://www.nginx.com/blog/authenticating-api-clients-jwt-nginx-plus/
-# https://superuser.com/questions/606953/bash-oauth-2-0-jwt-script-for-server-to-google-server-applications/607250
+# https://jwt.io/ other language libraries and debug
 # JWT Debugger  is good place to check
 # ...
 
