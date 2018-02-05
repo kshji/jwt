@@ -1,4 +1,4 @@
-# JWT Shell Script Encode and Decode JWT Access Token #
+# JWT Shell Script Encode and Decode JWT Token #
 
   * [Jwt doc](https://jwt.io/)
   * [Jwt libs](https://jwt.io/)
