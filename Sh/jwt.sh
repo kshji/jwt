@@ -51,15 +51,15 @@ dbg()
 verify_signature()
 {
 	
-	header_and_payload="$1"
+	header_payload="$1"
 	signature="$2"
 	seckey="$3"
 	dbg "verify_signature" 
-	dbg "-header_and_payload:$header_and_payload" 
+	dbg "-header_payload:$header_payload" 
 	dbg "-signature:$signature" 
 	dbg "-seckey:$seckey" 
 
-	expected=$(printf "%s" "$header_and_payload" | openssl dgst -binary -sha256 -hmac "$seckey")
+	expected=$(printf "%s" "$header_payload" | openssl dgst -binary -sha256 -hmac "$seckey")
   	expected_base64=$(printf "%s" "${expected}" | openssl base64 -e | tr '+/' '-_' | tr -d '=\n')
 
 	[ "$expected_base64" = "$signature" ] && return 0
