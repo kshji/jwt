@@ -176,7 +176,7 @@ do
 done
 
 case "$prg" in
-	encode)  make_jwt "$secret" ; exit 0 ;;
-	decode)  decode_jwt "$token" "$secret" ; exit 0 ;;
+	encode)  make_jwt "$secret"  ;;
+	decode)  decode_jwt "$token" "$secret" ;;
 	*) usage ; exit 1 ;;
 esac
