@@ -13,6 +13,8 @@ I have put examples to my **jwt.sh** script to handle JWT in any Posix compatibl
 You need openssl to run this scripts. 
 
 Also [Jq](https://stedolan.github.io/jq/) command-line JSON processor helps to parse JSON elements.
+[Ksh93](https://github.com/att/ast) include builtin json element support, but other shell not. I used jq to 
+make generic solution.
 
 
 Syntax :
